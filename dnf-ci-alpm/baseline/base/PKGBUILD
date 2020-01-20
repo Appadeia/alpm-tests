@@ -1,0 +1,15 @@
+pkgname=base
+
+pkgver=2
+pkgrel=2
+
+arch=(any)
+license=(GPL)
+
+depends=(
+    filesystem shell
+)
+
+optdepends=(
+    'linux: Run on bare metal'
+)

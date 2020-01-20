@@ -1,0 +1,7 @@
+pkgname=pear-browser-extensions
+
+pkgver=2.30
+pkgrel=3
+
+arch=(any)
+license=(GPL)

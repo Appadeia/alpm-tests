@@ -1,0 +1,11 @@
+pkgname=appstore
+
+pkgver=11.2
+pkgrel=2
+
+arch=(x86_64)
+license=(Apache)
+
+package_appstore() {
+    depends=(appstore-backend)
+}

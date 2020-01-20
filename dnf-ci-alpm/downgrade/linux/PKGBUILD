@@ -1,0 +1,16 @@
+pkgbase=linux
+pkgname=(linux linux-docs)
+
+pkgver=5.3.7.arch1
+pkgrel=1
+
+arch=(x86_64)
+license=(GPL2)
+
+package_linux() {
+    :
+}
+
+package_linux-docs() {
+    :
+}

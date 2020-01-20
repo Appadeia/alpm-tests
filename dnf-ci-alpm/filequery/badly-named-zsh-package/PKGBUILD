@@ -1,0 +1,17 @@
+pkgname=why-cant-i-feel-my-legs
+
+pkgver=2.30
+pkgrel=3
+
+arch=(x86_64)
+license=(GPL)
+
+depends=(
+    glibc readline
+)
+
+package() {
+    cd "$pkgname-$pkgver"
+    mkdir -p "$pkgdir/usr/bin/zsh"
+    touch "$pkgdir/usr/bin/zsh"
+}

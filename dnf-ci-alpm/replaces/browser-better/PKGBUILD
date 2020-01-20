@@ -1,0 +1,13 @@
+pkgname=browser-better
+
+pkgver=2.30
+pkgrel=3
+
+replaces=(browser) # How many times has Mozilla done this with Firefox?
+
+arch=(x86_64)
+license=(GPL)
+
+depends=(
+    glibc readline
+)

@@ -1,0 +1,15 @@
+pkgname=pear-browser
+
+pkgver=2.30
+pkgrel=3
+
+arch=(x86_64)
+license=(GPL)
+
+depends=(
+    glibc readline
+)
+
+optdepends=(
+    'pear-browser-extensions: a bunch of totes yeet extensions for yo browser'
+)

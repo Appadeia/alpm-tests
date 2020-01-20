@@ -1,0 +1,18 @@
+pkgbase=appstore-backends
+pkgname=(appstore-backends-flatpak appstore-backends-snap)
+
+pkgver=11.2
+pkgrel=2
+
+arch=(x86_64)
+license=(Apache)
+
+package_appstore-backends-flatpak() {
+    provides=(appstore-backend)
+    :
+}
+
+package_appstore-backends-snap() {
+    provides=(appstore-backend)
+    :
+}

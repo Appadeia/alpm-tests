@@ -1,0 +1,11 @@
+pkgname=shell
+
+pkgver=5.0.011
+pkgrel=2
+
+arch=(x86_64)
+license=(GPL)
+
+depends=(
+    glibc readline
+)
